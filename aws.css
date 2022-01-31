@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f3f3f3;
+    --dark: #343a40;
+    --dark-yellow:#141103;
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--gray-dark);
+    transition: 0.5s;
+    position: relative;
+}
+
+/*navbar section*/
+.navbar{
+    background: var(--dark-yellow);
+    box-shadow: 1px 1px 5px var(--orange);
+}
+.nav-link{
+    background: #ffbf00;
+    font-size: 20px;
+}
+.active{
+    background: #008000;
+    color: var(--light) !important;
+}
+.mobile-menu-btn{
+    top: 3%;
+    right: 0%;
+    margin-right: 20px;
+    color: var(--orange);
+    background: var(--yellow-dark);
+    font-size: 25px;
+    border: none;  
+} 
+.mobile-menu-btn:focus{
+    outline: none;
+}
+
+/*Home section*/
+.mobile-img{
+    width: 200px;
+  
+}
+#sec1 p{
+    font-size: 20px;
+    color: var(--white);
+}
+.one-left-p h6{
+    font-size: 25px;
+    color: var(--orange);
+}
+.line{
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 5px;
+    background: var(--orange);
+}
+.img-tv{
+    margin-top: 10px;
+    width: 100%;
+}
+.one-right-p h6{
+    margin-top: 20px;
+    font-size: 25px;
+    color: var(--orange);
+}
+.link-img1{
+    width: 150px;
+}
+ .link-img2{
+    width: 120px;
+}
+
+.link-img1:hover,.link-img2:hover{
+    transform: scale(1.05);
+}
+/*FEATURE section*/
+.two{
+    width: 100%;
+    margin-top: 90px;
+    padding: 0; 
+}
+.two-text{
+    margin: auto;
+    margin-bottom: 0;
+}
+.two-text h5{
+    color: var(--orange);
+    font-size: 30px;
+
+}
+.two-text p{
+    color: var(--light);
+    font-size: 25px;
+}
+.two-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.two-box-item{
+    width: 250px;
+    height: 250px;
+    box-shadow:5px 5px 5px var(--orange) ;
+    border-radius: 10px;
+    background: var(--white);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.two-box-item:hover{
+    box-shadow: 10px 10px 10px var(--dark-yellow);
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
+.two-box-item i{
+    color: var(--dark-yellow);
+    font-size: 30px;
+}
+.two-box-item h5{
+    color: var(--orange);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.two-box-item p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.package-box{
+  width: 260px;
+}
+.card-header{
+    background: var(--dark-yellow);
+}
+.card-header p{
+    color: var(--orange);
+    font-weight:bolder;
+    font-size: 20px;
+}
+.card-body div{
+    font-weight: bolder;
+}
+.card-footer{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.items-in-card i{
+    color: var(--orange);
+}
+
+/*for contact section*/
+.contact{
+    width: 90%;
+    background: var(--light);
+    margin: 30px auto;
+    padding: 20px 5px;
+    border-radius: 10px
+  } 
+  .contact-item{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:2px;
+  }
+  
+  .contact-item p{
+    display:inline-block;
+  }
+  
+  .contact .kbz{
+    width: 60px;
+  }
+  .contact .aya{
+    width: 60px;
+  }
+  .contact .wave{
+    margin-top:10px;
+    width: 100px;
+  }
+  .contact .kpay{
+    width: 25px;
+  }
+  .contact-text p{
+    display: inline-block;
+  }
+
+
+
+  .social-contact{
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    margin: auto;
+    }
+    .social-card{
+    background: var(--light);
+    padding: 20px;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+    }
+    .social-card a{
+    text-decoration:none;
+    font-size: 30px;
+    
+    }
+    .cicon{
+    font-size: 50px;
+    color: var(--primary);
+    }
+    
+    .up-arrow i{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+        color: var(--orange);
+        scroll-behavior: smooth;
+        opacity: 0.7;
+    }
+    
+    footer{
+        margin-top: 20px;
+        width: 100%;
+        padding: 0 100px;
+        text-align: center;
+        color: var(--orange);
+        font-size: 20px;
+    }
+

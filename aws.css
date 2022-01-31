@@ -133,7 +133,7 @@ body{
 }
 .two-box-item{
     width: 250px;
-    height: 250px;
+    height: 300px;
     box-shadow:5px 5px 5px var(--orange) ;
     border-radius: 10px;
     background: var(--white);

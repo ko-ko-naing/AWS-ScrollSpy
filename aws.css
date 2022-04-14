@@ -100,7 +100,9 @@ body{
     width: 150px;
 }
  .link-img2{
-    width: 120px;
+    width: 115px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .link-img1:hover,.link-img2:hover{
